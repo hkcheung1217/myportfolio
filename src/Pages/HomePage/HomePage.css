@@ -1,0 +1,55 @@
+.homePage {
+	display: flex;
+	height: 100vh;
+	color: #fff;
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Ubuntu', sans-serif;
+	background: linear-gradient(to right, rgba(29, 30, 38, 0.3), rgba(29, 30, 38, 0.2), rgba(29, 30, 38, 0.1)),
+		url('../../assets/background/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.homePage .max-width {
+	margin: auto 0 auto 30px;
+}
+.homePage .homePage__content .homePage__text__1 {
+	font-size: 27px;
+}
+.homePage .homePage__content .homePage__text__2 {
+	font-size: 75px;
+	font-weight: 600;
+	margin-left: -3px;
+}
+.homePage .homePage__content .homePage__text__3 {
+	font-size: 40px;
+	margin: 5px 0;
+}
+.homePage .homePage__content .homePage__text__3 span {
+	color: white;
+	font-weight: 500;
+}
+
+/* responsive media query start */
+@media (max-width: 1300px) {
+	.homePage .max-width {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 500px) {
+	.homePage .homePage__content .homePage__text__1 {
+		font-size: 20px;
+	}
+
+	.homePage .homePage__content .homePage__text__2 {
+		font-size: 40px;
+	}
+
+	.homePage .homePage__content .homePage__text__3 {
+		font-size: 20px;
+	}
+}
